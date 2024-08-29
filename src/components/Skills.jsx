@@ -117,9 +117,9 @@ const Skills = () => {
           </div>
         </div>
       </section>
-      <section className="bg-black  gap-10 py-10">
+      <section className="bg-black gap-10 py-10">
         <div className="text-center  justify-center mb-10">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl w-full sm:h-[] sm:w-3/4 md:w-2/3 mx-auto font-semibold text-yellow-400">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl w-full sm:w-3/4 md:w-2/3 mx-auto font-semibold text-yellow-400">
             Crafting web experiences that captivate and drive results
           </h2>
           <p className="w-full p-3 sm:w-3/4 md:w-2/3 text-gray-500 text-lg sm:text-xl mx-auto mt-5">
@@ -132,9 +132,9 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row flex-wrap justify-around gap-6 md:gap-4">
-          <div className="border hover:text-white hover:shadow-2xl  hover:shadow-cyan-400 text-gray-400  hover:bg-blue-700 border-sky-600 w-full md:w-[45%] p-6 md:p-10 lg:p-14">
-            <h3 className="text-xl text-yellow-400  sm:text-2xl md:text-3xl font-semibold mb-2">
+        <div className="flex flex-col p-6 md:flex-row flex-wrap justify-around gap-6 md:gap-4">
+          <div className="border hover:text-white hover:shadow-2xl hover:shadow-cyan-400 text-gray-400 hover:bg-blue-700 border-sky-600 w-full md:w-[45%] p-6 md:p-10 lg:p-14">
+            <h3 className="text-xl text-yellow-400 sm:text-2xl md:text-3xl font-semibold mb-2">
               React JS Development
             </h3>
             <p className="text-sm sm:text-base md:text-lg mb-2 mt-4">
@@ -146,7 +146,7 @@ const Skills = () => {
             </p>
           </div>
 
-          <div className="border hover:shadow-2xl  hover:shadow-cyan-400 hover:text-white text-gray-400  hover:bg-blue-700 border-sky-600 w-full md:w-[45%] p-6 md:p-10 lg:p-14">
+          <div className="border hover:shadow-2xl hover:shadow-cyan-400 hover:text-white text-gray-400 hover:bg-blue-700 border-sky-600 w-full md:w-[45%] p-6 md:p-10 lg:p-14">
             <h3 className="text-xl text-yellow-400 sm:text-2xl md:text-3xl font-semibold mb-2">
               Front-End Development
             </h3>
@@ -158,34 +158,34 @@ const Skills = () => {
               businesses and users alike.
             </p>
           </div>
+        </div>
 
-          <div className="flex flex-col md:flex-row flex-wrap justify-around gap-6 md:gap-4 mt-10">
-            <div className="border hover:text-white hover:shadow-2xl  hover:shadow-cyan-400 text-gray-400  hover:bg-blue-700 border-sky-600 w-full md:w-[45%] p-6 md:p-10 lg:p-14">
-              <h3 className="text-xl text-yellow-400 sm:text-2xl md:text-3xl font-semibold mb-2">
-                JavaScript Proficiency
-              </h3>
-              <p className="text-sm sm:text-base md:text-lg mb-2 mt-4">
-                My proficiency in JavaScript allows me to create dynamic and
-                interactive web experiences that engage users and drive business
-                results. I have experience using a range of JavaScript
-                frameworks and libraries, allowing me to develop customized
-                solutions to meet the unique needs of clients.
-              </p>
-            </div>
+        <div className="flex flex-col p-6 md:flex-row flex-wrap justify-around gap-6 md:gap-4 mt-10">
+          <div className="border hover:text-white hover:shadow-2xl hover:shadow-cyan-400 text-gray-400 hover:bg-blue-700 border-sky-600 w-full md:w-[45%] p-6 md:p-10 lg:p-14">
+            <h3 className="text-xl text-yellow-400 sm:text-2xl md:text-3xl font-semibold mb-2">
+              JavaScript Proficiency
+            </h3>
+            <p className="text-sm sm:text-base md:text-lg mb-2 mt-4">
+              My proficiency in JavaScript allows me to create dynamic and
+              interactive web experiences that engage users and drive business
+              results. I have experience using a range of JavaScript frameworks
+              and libraries, allowing me to develop customized solutions to meet
+              the unique needs of clients.
+            </p>
+          </div>
 
-            <div className="border hover:text-white hover:shadow-2xl  hover:shadow-cyan-400 text-gray-400  hover:bg-blue-700 border-sky-600 w-full md:w-[45%] p-6 md:p-10 lg:p-14">
-              <h3 className="text-xl text-yellow-400 sm:text-2xl md:text-3xl font-semibold mb-2">
-                Node Js
-              </h3>
-              <p className="text-sm sm:text-base md:text-lg mb-2 mt-4">
-                My passion for user-centric design has led me to specialize in
-                where I focus on creating beautiful, functional, and intuitive
-                interfaces that engage users and drive business results. My
-                expertise in design principles, user research, and prototyping
-                allows me to create stunning web experiences that delight users
-                and exceed expectations.
-              </p>
-            </div>
+          <div className="border hover:text-white hover:shadow-2xl hover:shadow-cyan-400 text-gray-400 hover:bg-blue-700 border-sky-600 w-full md:w-[45%] p-6 md:p-10 lg:p-14">
+            <h3 className="text-xl text-yellow-400 sm:text-2xl md:text-3xl font-semibold mb-2">
+              Node JS
+            </h3>
+            <p className="text-sm sm:text-base md:text-lg mb-2 mt-4">
+              My passion for user-centric design has led me to specialize in
+              creating beautiful, functional, and intuitive interfaces that
+              engage users and drive business results. My expertise in design
+              principles, user research, and prototyping allows me to create
+              stunning web experiences that delight users and exceed
+              expectations.
+            </p>
           </div>
         </div>
       </section>
