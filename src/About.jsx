@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import useAOS from "./components/Custumhook";
 
-
-
 const About = () => {
   useAOS();
   const [openIndex, setOpenIndex] = useState(null);
@@ -18,7 +16,7 @@ const About = () => {
         className=" h-full  bg-gradient-to-r  from-blue-500 via-gray-700 to-black"
       >
         <div className="flex justify-center mx-auto text-center text-2xl sm:text-4xl">
-          <span className="w-full text-yellow-500 sm:w-1/2 font-bold flex mt-16">
+          <span className="w-full text-yellow-500 sm:w-1/2 font-bold flex mt-14">
             A front-end developer with a passion for designing immersive
             websites.
           </span>
@@ -28,23 +26,32 @@ const About = () => {
             <img
               src="https://10web-site.ai/26/wp-content/uploads/sites/29/2024/02/2-3_wRhhO3TI.webp"
               alt=""
-              className=" sm:h-[35rem] object-center object-cover"
+              className="h-[27rem] w-[17rem] sm:h-[35rem] object-center  object-fill"
             />
           </div>
           <div className="w-full sm:w-1/2 mx-auto p-5 mt-0 ">
-            <h1 data-aos="slide-right"
-                data-aos-duration="2500" className="text-3xl  tex sm:text-7xl font-bold">
+            <h1
+              data-aos="slide-right"
+              data-aos-duration="2500"
+              className="text-3xl  tex sm:text-7xl font-bold"
+            >
               <span className="text-white">Who </span>
               <span className="text-blue-700">AM </span>{" "}
               <span className="text-amber-400"> I </span>
               <span className="text-white">?</span>
             </h1>
-            <h2  data-aos="zoom-in-right"
-                data-aos-duration="2500" className="text-2xl mt-8 text-yellow-400">
+            <h2
+              data-aos="zoom-in-right"
+              data-aos-duration="2500"
+              className="text-2xl mt-8 text-yellow-400"
+            >
               I'm a Rajneesh Kumar , a software developer Intern
             </h2>
-            <p data-aos="zoom-in-up"
-                data-aos-duration="2500" className="mt-2 font-sans text-gray-400 italic font-medium tracking-wider mb-5">
+            <p
+              data-aos="zoom-in-up"
+              data-aos-duration="2500"
+              className="mt-2 font-sans text-gray-400 italic font-medium tracking-wider mb-5"
+            >
               I am a computer science student with a strong background in
               programming and software development. I am very interested in
               computer science, especially programming. I am skilled in
@@ -96,10 +103,6 @@ const About = () => {
           </div>
         </div>
       </section>
-     
-
-      
-     
     </>
   );
 };
