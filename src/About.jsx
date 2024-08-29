@@ -16,17 +16,17 @@ const About = () => {
         className=" h-full  bg-gradient-to-r  from-blue-500 via-gray-700 to-black"
       >
         <div className="flex justify-center mx-auto text-center text-2xl sm:text-4xl">
-          <span className="w-full text-yellow-500 sm:w-1/2 font-bold flex mt-14">
+          <span className="w-full text-yellow-500 sm:w-1/2 font-bold flex mt-10">
             A front-end developer with a passion for designing immersive
             websites.
           </span>
         </div>
-        <div className="flex flex-col sm:flex-row mt-10 sm:mt-10">
+        <div className="flex flex-col sm:flex-row mt-10 sm:mt-1">
           <div className="mx-auto">
             <img
               src="https://10web-site.ai/26/wp-content/uploads/sites/29/2024/02/2-3_wRhhO3TI.webp"
               alt=""
-              className="h-[27rem] w-[17rem] sm:h-[35rem] object-center  object-fill"
+              className="h-[23rem] w-[24rem] sm:h-[30rem] object-center  "
             />
           </div>
           <div className="w-full sm:w-1/2 mx-auto p-5 mt-0 ">
@@ -43,7 +43,7 @@ const About = () => {
             <h2
               data-aos="zoom-in-right"
               data-aos-duration="2500"
-              className="text-2xl mt-8 text-yellow-400"
+              className="text-2xl mt-5 text-yellow-400"
             >
               I'm a Rajneesh Kumar , a software developer Intern
             </h2>
@@ -66,7 +66,7 @@ const About = () => {
             </p>
             <div className="border-b border-black">
               <h3
-                className="text-lg font-bold text-yellow-400 mb-6 cursor-pointer"
+                className="text-lg font-bold text-yellow-400 mb-4 cursor-pointer"
                 onClick={() => toggleAccordion(0)}
               >
                 My Vision
@@ -83,13 +83,13 @@ const About = () => {
             </div>
             <div className="border-b border-black">
               <h3
-                className="text-lg font-bold mt-2 text-yellow-400 mb-6 cursor-pointer"
+                className="text-lg font-bold  mb-3  mt-2 text-yellow-400  cursor-pointer"
                 onClick={() => toggleAccordion(1)}
               >
                 My Mission
               </h3>
               {openIndex === 1 && (
-                <p className="mb-5 tracking-widest font-thin leading-relaxed text-gray-400">
+                <p className=" tracking-widest font-thinleading-relaxed text-gray-400">
                   My mission is to deliver high-quality, impactful software
                   solutions by combining technical expertise with creative
                   problem-solving. I am dedicated to fostering collaboration,

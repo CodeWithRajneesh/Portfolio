@@ -45,7 +45,7 @@ const Education = () => {
           {educationData.map((edu, index) => (
             <div
               key={index}
-              data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
+              data-aos={index % 2 === 0 ? "fade-right" : "fade-up"}
               className="bg-gray-950 p-7 hover:shadow-2xl hover:shadow-red-800 w-full sm:w-[48%] lg:w-[23%] min-h-[100px] mb-5"
             >
               <strong className="text-lg tracking-widest text-white font-semibold mb-2 block">
@@ -89,7 +89,6 @@ const Education = () => {
               knowledge to real-world problems and learn more about the
               industry. During the internship, I learned -
               <span className="text-yellow-300">
-                
                 HTML5, CSS3, TailwindCSS, JavaScript, React.js, Node.js, MongoDB
               </span>
               . I am excited to take on new challenges and contribute to
@@ -172,23 +171,25 @@ const Education = () => {
               <h1 className="text-2xl mb-3 text-yellow-300 font-semibold">
                 {project.title}
               </h1>
-              <p className="text-gray-400 mb-4">
+              <p className="text-gray-400 md:text-md  text-sm mb-4">
                 Developed using <span className="text-white">React.js</span>
-                with <span className="text-white">TailwindCSS</span>.
+                with <span className="text-white text-sm">TailwindCSS</span>.
                 {project.description}
               </p>
               <div className="flex flex-col gap-3">
                 <div>
-                  <h1 className="text-white text-md mt-5">Features:</h1>
-                  <ul className="text-gray-400 list-disc ml-5">
+                  <h1 className="text-white md:text-md text-md mt-5">
+                    Features:
+                  </h1>
+                  <ul className="text-gray-400 text-sm list-disc ml-5">
                     {project.features.map((feature, i) => (
                       <li key={i}>{feature}</li>
                     ))}
                   </ul>
                 </div>
                 <div>
-                  <h1 className="text-white text-md mt-5">Role:</h1>
-                  <ul className="text-gray-400 list-disc ml-5">
+                  <h1 className="text-white md:text-md text-md mt-5">Role:</h1>
+                  <ul className="text-gray-400 text-sm list-disc ml-5">
                     {project.role.map((role, i) => (
                       <li key={i}>{role}</li>
                     ))}
