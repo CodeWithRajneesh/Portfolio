@@ -16,7 +16,7 @@ const About = () => {
         className=" h-full  bg-gradient-to-r  from-blue-500 via-gray-700 to-black"
       >
         <div className="flex justify-center mx-auto text-center text-2xl sm:text-4xl">
-          <span className="w-full text-yellow-500 sm:w-1/2 font-bold flex mt-10">
+          <span className="w-full text-yellow-400 sm:w-1/2 font-bold flex mt-10">
             A front-end developer with a passion for designing immersive
             websites.
           </span>
@@ -26,14 +26,14 @@ const About = () => {
             <img
               src="https://10web-site.ai/26/wp-content/uploads/sites/29/2024/02/2-3_wRhhO3TI.webp"
               alt=""
-              className="h-[23rem] w-[24rem] sm:h-[30rem] object-center  "
+              className="h-[25rem] w-[20rem] sm:w-[24rem] sm:h-[34rem] object-center  "
             />
           </div>
           <div className="w-full sm:w-1/2 mx-auto p-5 mt-0 ">
             <h1
               data-aos="slide-right"
               data-aos-duration="2500"
-              className="text-3xl  tex sm:text-7xl font-bold"
+              className="text-3xl mt-3  tex sm:text-7xl font-bold"
             >
               <span className="text-white">Who </span>
               <span className="text-blue-700">AM </span>{" "}
@@ -43,14 +43,14 @@ const About = () => {
             <h2
               data-aos="zoom-in-right"
               data-aos-duration="2500"
-              className="text-2xl mt-5 text-yellow-400"
+              className="text-2xl mx-5 mt-5 text-yellow-400"
             >
               I'm a Rajneesh Kumar , a software developer Intern
             </h2>
             <p
               data-aos="zoom-in-up"
               data-aos-duration="2500"
-              className="mt-2 font-sans text-gray-400 italic font-medium tracking-wider mb-5"
+              className="mt-2 p-5 font-sans text-gray-400 italic font-medium tracking-wider mb-3"
             >
               I am a computer science student with a strong background in
               programming and software development. I am very interested in
@@ -66,7 +66,7 @@ const About = () => {
             </p>
             <div className="border-b border-black">
               <h3
-                className="text-lg font-bold text-yellow-400 mb-4 cursor-pointer"
+                className="text-lg font-bold text-yellow-400 mx-3 mb-4 cursor-pointer"
                 onClick={() => toggleAccordion(0)}
               >
                 My Vision
@@ -81,7 +81,7 @@ const About = () => {
                 </p>
               )}
             </div>
-            <div className="border-b border-black">
+            <div className="border-b mx-3 border-black">
               <h3
                 className="text-lg font-bold  mb-3  mt-2 text-yellow-400  cursor-pointer"
                 onClick={() => toggleAccordion(1)}

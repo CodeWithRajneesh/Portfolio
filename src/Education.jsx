@@ -168,7 +168,7 @@ const Education = () => {
               key={index}
               className="w-full sm:w-[48%] lg:w-[32%] bg-gray-950 hover:shadow-2xl hover:shadow-cyan-400 text-lg tracking-wider p-6 mb-5"
             >
-              <h1 className="text-2xl mb-3 text-yellow-300 font-semibold">
+              <h1 className="text-2xl mb-3 text-yellow-400 font-semibold">
                 {project.title}
               </h1>
               <p className="text-gray-400 md:text-md  text-sm mb-4">

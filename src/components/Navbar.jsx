@@ -23,7 +23,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className="bg-black text-white fixed top-0 left-0 p-3 w-full z-50">
+    <header className="bg-black text-white fixed top-0 left-0 w-screen  p-3 z-50  sm:w-full ">
       <nav className="flex items-center justify-between mr-10">
         <div className="text-xl mx-10 md:text-2xl font-bold tracking-widest">
           Rajneesh Kumar
