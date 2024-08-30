@@ -24,7 +24,7 @@ const Resume = () => {
             />
           </div>
           <div className="w-full md:w-2/3 md:ml-4">
-            <h2 className="text-3xl text-white font-bold mb-2">
+            <h2 className="text-3xl text-yellow-400 font-bold mb-2">
               Frontend & React Developer
             </h2>
             <p className="text-gray-400 text-lg italic mb-4">
