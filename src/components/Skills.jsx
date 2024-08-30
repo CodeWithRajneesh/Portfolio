@@ -25,8 +25,8 @@ const Skills = () => {
         <div className="flex flex-col md:flex-row md:justify-between gap-8">
           <div className="space-y-6 md:w-2/3">
             {skills.map((skill) => (
-              <div key={skill.name} className="space-y-2">
-                <h2 className="font-sans text-gray-400 tracking-wide text-md">
+              <div key={skill.name} className="space-y-1">
+                <h2 className="font-sans text-gray-400 tracking-wide text-sm">
                   {skill.name}
                 </h2>
                 <div className="w-full h-2 border border-gray-600 rounded-md bg-gray-800">
@@ -40,11 +40,7 @@ const Skills = () => {
             ))}
           </div>
 
-          <div
-            data-aos="zoom-in-up"
-            data-aos-duration="1500"
-            className="md:w-[50rem]"
-          >
+          <div data-aos="zoom-in-up" className="md:w-[50rem]">
             <h3 className="text-2xl md:text-3xl mt-5 font-semibold text-yellow-400 mb-4">
               Let's create something amazing together
             </h3>
@@ -132,7 +128,10 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className="flex flex-col p-6 md:flex-row flex-wrap justify-around gap-6 md:gap-4">
+        <div
+          data-aos="fade-up"
+          className="flex flex-col p-6 md:flex-row flex-wrap justify-around gap-6 md:gap-4"
+        >
           <div className="border hover:text-white hover:shadow-2xl hover:shadow-cyan-400 text-gray-400 hover:bg-blue-700 border-sky-600 w-full md:w-[45%] p-6 md:p-10 lg:p-14">
             <h3 className="text-xl text-yellow-400 sm:text-2xl md:text-3xl font-semibold mb-2">
               React JS Development
@@ -146,7 +145,10 @@ const Skills = () => {
             </p>
           </div>
 
-          <div className="border hover:shadow-2xl hover:shadow-cyan-400 hover:text-white text-gray-400 hover:bg-blue-700 border-sky-600 w-full md:w-[45%] p-6 md:p-10 lg:p-14">
+          <div
+            data-aos="fade-up"
+            className="border hover:shadow-2xl hover:shadow-cyan-400 hover:text-white text-gray-400 hover:bg-blue-700 border-sky-600 w-full md:w-[45%] p-6 md:p-10 lg:p-14"
+          >
             <h3 className="text-xl text-yellow-400 sm:text-2xl md:text-3xl font-semibold mb-2">
               Front-End Development
             </h3>
@@ -160,7 +162,10 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="flex flex-col p-6 md:flex-row flex-wrap justify-around gap-6 md:gap-4 mt-10">
+        <div
+          data-aos="fade-up"
+          className="flex flex-col p-6 md:flex-row flex-wrap justify-around gap-6 mt-2"
+        >
           <div className="border hover:text-white hover:shadow-2xl hover:shadow-cyan-400 text-gray-400 hover:bg-blue-700 border-sky-600 w-full md:w-[45%] p-6 md:p-10 lg:p-14">
             <h3 className="text-xl text-yellow-400 sm:text-2xl md:text-3xl font-semibold mb-2">
               JavaScript Proficiency
@@ -174,7 +179,10 @@ const Skills = () => {
             </p>
           </div>
 
-          <div className="border hover:text-white hover:shadow-2xl hover:shadow-cyan-400 text-gray-400 hover:bg-blue-700 border-sky-600 w-full md:w-[45%] p-6 md:p-10 lg:p-14">
+          <div
+            data-aos="fade-up"
+            className="border hover:text-white hover:shadow-2xl hover:shadow-cyan-400 text-gray-400 hover:bg-blue-700 border-sky-600 w-full md:w-[45%] p-6 md:p-10 lg:p-14"
+          >
             <h3 className="text-xl text-yellow-400 sm:text-2xl md:text-3xl font-semibold mb-2">
               Node JS
             </h3>

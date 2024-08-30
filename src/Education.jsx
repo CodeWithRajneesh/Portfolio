@@ -165,6 +165,7 @@ const Education = () => {
             },
           ].map((project, index) => (
             <div
+              data-aos={index % 2 === 0 ? "zoom-in" : "fade-up"}
               key={index}
               className="w-full sm:w-[48%] lg:w-[32%] bg-gray-950 hover:shadow-2xl hover:shadow-cyan-400 text-lg tracking-wider p-6 mb-5"
             >

@@ -51,12 +51,11 @@ const Home = () => {
               <span className="typewriter-text">{text}</span>
               <span className="caret blink">|</span>
             </h1>
-            <p className="text-white mt-5 mb-7 text-lg md:text-2xl tracking-wider">
+            <p className="text-white mt-5 mb-7 text-lg md:text-xl tracking-wider">
               I'm currently a fresher / software developer intern
             </p>
             <Button />
           </div>
-
           <div className="w-full md:w-[50%] flex justify-center md:justify-end">
             <img
               src="https://10web-site.ai/26/wp-content/uploads/sites/29/2024/02/MAIN_wRhhO3TI-scaled.webp"
