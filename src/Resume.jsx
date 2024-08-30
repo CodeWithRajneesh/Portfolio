@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./components/Button";
 import useAOS from "./components/Custumhook";
+import adminImg from "./components/images/admin.jpg";
 
 const Resume = () => {
   useAOS();
@@ -17,7 +18,7 @@ const Resume = () => {
             className="w-full md:w-1/3 mb-4 md:mb-0 flex justify-center"
           >
             <img
-              src="/src/components/images/admin.jpg"
+              src={adminImg}
               alt="Rajneesh Kumar"
               className="h-72 w-64 object-cover object-center mt-5"
             />
