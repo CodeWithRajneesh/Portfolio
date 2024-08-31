@@ -51,7 +51,7 @@ const Home = () => {
               <span className="typewriter-text">{text}</span>
               <span className="caret blink">|</span>
             </h1>
-            <p className="text-white mt-5 mb-7 text-lg md:text-xl tracking-wider">
+            <p className="text-white mt-5 mb-7 text-sm md:text-xl tracking-wider">
               I'm currently a fresher / software developer intern
             </p>
             <Button />
