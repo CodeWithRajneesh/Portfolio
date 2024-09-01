@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import useAOS from "./Custumhook";
-import Resumepdf from "./images/Rajneesh .pdf";
+import Resumepdf from "./images/Rajneesh.pdf";
 
 const Button = () => {
   const [resumePdf, setResumePdf] = useState(null);

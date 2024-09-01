@@ -124,7 +124,7 @@ const Education = () => {
                 "Authentication",
                 "User Interface Design",
               ],
-              link: "https://github.com/CodeWith",
+              link: "https://github.com/Naveenkaushik06/Nidhi-7",
             },
             {
               title: "E-Commerce Website",
@@ -142,7 +142,7 @@ const Education = () => {
                 "Authentication",
                 "User Interface Design",
               ],
-              link: "https://github.com/CodeWith",
+              link: "https://github.com/CodeWithRajneesh/E-commerce",
             },
             {
               title: "Mern Authorization",
@@ -161,7 +161,7 @@ const Education = () => {
                 "JWT Security",
                 "User Interface Design & Integration",
               ],
-              link: "https://github.com/CodeWith",
+              link: "https://github.com/CodeWithRajneesh/Mernweb",
             },
           ].map((project, index) => (
             <div

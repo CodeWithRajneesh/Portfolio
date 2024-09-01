@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import useAOS from "./components/Custumhook";
+import Resumepdf from "./components/images/Rajneesh.pdf";
 
 const Contact = () => {
   useAOS();
   const [resumePdf, setResumePdf] = useState(null);
 
   useEffect(() => {
-    fetch("Rajneesh.pdf")
+    fetch(Resumepdf)
       .then((response) => response.blob())
       .then((blob) => {
         const url = URL.createObjectURL(blob);
@@ -29,7 +30,7 @@ const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm flex mt-2 flex-col items-center"
-            href="https://maps.app.goo.gl/rxs5DjEMJ9omXtN56"
+            href="https://goo.gl/maps/Svum3tW4AkkFT2gH8?g_st=aw"
           >
             <svg
               className="bg-gray-900 w-14 h-14 rounded-full p-4"
@@ -93,7 +94,7 @@ const Contact = () => {
           className="flex flex-col items-center justify-center"
         >
           {resumePdf && (
-            <a href={resumePdf} download="Rajneesh.pdf">
+            <a href={resumePdf} download={Resumepdf}>
               <svg
                 className="bg-gray-900 w-14 h-14 rounded-full p-4"
                 xmlns="http://www.w3.org/2000/svg"
