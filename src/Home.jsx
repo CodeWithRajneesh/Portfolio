@@ -44,7 +44,7 @@ const Home = () => {
           <div className="w-full md:w-[45%] ml-5 md:ml-10 pt-16 md:pt-28 p-5 md:p-16 text-xl sm:text-2xl md:text-5xl">
             <span className="text-yellow-400 font-bold text-sm"> Hello !</span>
             <span className="w-full text-yellow-400 font-bold flex">
-              <span className="text-white text-md sm:text-lg">I'm</span>
+              <span className="text-white  text-lg sm:text-lg">I'm</span>
               Rajneesh Kumar
             </span>
             <h1 className="text-xl md:text-2xl mt-5 font-bold text-white whitespace-nowrap overflow-hidden">

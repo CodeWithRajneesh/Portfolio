@@ -24,8 +24,8 @@ const Navbar = () => {
 
   return (
     <header className="bg-black text-white fixed top-0 left-0 w-screen  p-3 z-50  sm:w-full ">
-      <nav className="flex items-center justify-between mr-10">
-        <div className="text-xl mx-10 md:text-2xl font-bold tracking-widest">
+      <nav className="flex  items-center justify-between mr-10">
+        <div className="text-xl text-yellow-400 mx-10 md:text-2xl font-bold tracking-widest">
           Rajneesh Kumar
         </div>
         <div className="md:hidden text-white">
@@ -61,11 +61,13 @@ const Navbar = () => {
                 e.preventDefault();
                 scrollToTop();
               }}
-              className="block md:inline-block px-2 py-2 tracking-widest font-medium text-white"
+              className="block md:inline-block px-2 py-2 tracking-widest font-medium text-yellow-400 relative after:content-[''] after:block after:w-full after:h-[3px] 
+    after:bg-orange-600 after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out hover:after:scale-x-100"
             >
               Home
             </a>
           </li>
+
           <li className="md:ml-10">
             <a
               href="#about"
@@ -73,7 +75,8 @@ const Navbar = () => {
                 e.preventDefault();
                 triggerNavItem("about");
               }}
-              className="block md:inline-block px-2 py-2 tracking-widest font-medium text-white"
+              className="block md:inline-block px-2 py-2 tracking-widest font-medium text-yellow-400 relative after:content-[''] after:block after:w-full after:h-[3px] 
+    after:bg-orange-600 after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out hover:after:scale-x-100"
             >
               About
             </a>
@@ -85,7 +88,8 @@ const Navbar = () => {
                 e.preventDefault();
                 triggerNavItem("resume");
               }}
-              className="block md:inline-block px-2 py-2 tracking-widest font-medium text-white"
+              className="block md:inline-block px-2 py-2 tracking-widest font-medium text-yellow-400 relative after:content-[''] after:block after:w-full after:h-[3px] 
+    after:bg-orange-600 after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out hover:after:scale-x-100"
             >
               Resume
             </a>
@@ -97,7 +101,8 @@ const Navbar = () => {
                 e.preventDefault();
                 triggerNavItem("skills");
               }}
-              className="block md:inline-block px-2 py-2 tracking-widest font-medium text-white"
+              className="block md:inline-block px-2 py-2 tracking-widest font-medium text-yellow-400 relative after:content-[''] after:block after:w-full after:h-[3px] 
+    after:bg-orange-600 after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out hover:after:scale-x-100"
             >
               Skills
             </a>
@@ -109,7 +114,8 @@ const Navbar = () => {
                 e.preventDefault();
                 triggerNavItem("education");
               }}
-              className="block md:inline-block px-2 py-2 tracking-widest font-medium text-white"
+              className="block md:inline-block px-2 py-2 tracking-widest font-medium text-yellow-400 relative after:content-[''] after:block after:w-full after:h-[3px] 
+              after:bg-orange-600 after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out hover:after:scale-x-100"
             >
               Education
             </a>
@@ -121,7 +127,8 @@ const Navbar = () => {
                 e.preventDefault();
                 triggerNavItem("contact");
               }}
-              className="block md:inline-block px-2 py-2 tracking-widest font-medium text-white"
+              className="block md:inline-block px-2 py-2 tracking-widest font-medium text-yellow-400 relative after:content-[''] after:block after:w-full after:h-[3px] 
+              after:bg-orange-600 after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out hover:after:scale-x-100"
             >
               Contact
             </a>
